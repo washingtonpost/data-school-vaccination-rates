@@ -4,7 +4,14 @@ As part of our reporting into growing vaccine hesitancy in the U.S., the Washing
 
 **[U.S. vaccination rates are plunging. Look up where your school stands.](https://www.washingtonpost.com/tklink)**
 
+
 ### HOW TO USE THIS DATA
+### Data Included
+There are four files included in this repo. Details on how the data was obtained, cleaned and filtered can be found in the methodology below. There are no plans to update this data.
+* County-level vaccination rates: 
+* School-level vaccination rates: 
+  * Kansas:
+* Data Dictionary:
 
 ### Vaccination Rate Data
 To investigate vaccination rates at U.S. schools, reporters sought out school-level MMR (measles, mumps, and rubella) vaccination rates and exemption data for kindergartners from all 50 states and D.C. To analyze how the pandemic affected rates, we examined the academic years 2018-2019, 2019-2020, 2023-2024 and 2024-2025. Data was gathered from publicly available government websites or through public records requests filed with state and local agencies.
@@ -27,19 +34,20 @@ County-level or school-level kindergarten vaccination rates were considered to b
 In roughly two dozen states where exact school addresses weren’t provided, reporters geocoded each building in the following manner: First, schools were matched to National Center for Education Statistics data. Those without a close match were then searched for location details using Google and Geocodio tools. Those that still didn’t match to a street address were checked by hand. In several states, a number of schools listed no exact addresses, were not included in federal datasets and did not appear in web searches. Those were geocoded to the center of the nearest geography provided — either a street, city or county. In some cases, schools may be geocoded imprecisely, i.e., to a local county office, PO box or out-of-date location, or to the location of another school. This is largely due to some schools in the same county having similar names, and the quality or availability of school addresses provided by the states. In hundreds of cases, reporters identified and manually fixed geocoding issues. 
 
 ### State-specific caveats
-* Alaska: Data was provided for large economic regions, so reporters translated these to county-equivalent census areas and boroughs.
-* Connecticut: Available data represented counties prior to 2024 and planning regions after, so reporters mapped school addresses from 2018 to the  planning regions.
-* D.C.: In the county map data, the pre-pandemic year is 2015, not 2018 or 2019, as no comparable data was otherwise available. 
-* Hawaii: State health officials noted that they could not clearly distinguish between students that were not vaccinated from those who were missing immunization records in part because of state immunization registry issues and staffing shortages.
-* Kansas: Only school-district-level data was provided, so that data is available here as a separate file with that school district geography as “kansas.geojson”.
-* Kentucky: Initial county and school-level data provided for Jefferson County’s vaccination rate appeared to be extremely low (under 60percent). When reporters asked about these rates, local officials sent dramatically updated school-level data for Jefferson County alone from 2018-2019 through the 2024-2025 school year – the latest rate was about 94 percent on average. Local public health experts cited a top healthcare provider not reporting data as a reason for the discrepancy and later told reporters that The Post’s inquiry helped them find a major multistate data infrastructure flaw that also impacted the data’s accuracy. Reporters replaced school and county-level data for Jefferson County in this data, but it is unclear the extent to which these problems officials cited impact other local data in Kentucky.
-* Montana: No recent statewide (latest is from 2020-2021), county (latest is from 2019-2020), or school-level (latest is from 2018-2019) data was available. In a statement to The Post, a health department official wrote that “the Department no longer collects data from schools after the passing of HB 334 in 2021.”
-* Nebraska: Data was provided for health department districts, so reporters translated data for these to counties.
-* New York: School-level data includes all schools, not just those with kindergartens. It does not include any individual public schools in the five boroughs of New York City – those are reported at the borough level. 
-* Texas: Data represents individual private schools and public school districts. In the school-level dataframe, public school districts are geocoded as centroids for school districts. That school district data is additionally provided as “texas.geojson” for the school district geography.
-* West Virginia: West Virginia did not provide any data following multiple requests. Only CDC data was used to report statewide rates.
-* Wisconsin: State health department officials noted that the methodology for calculating statewide rates changed before and after the pandemic from a stratified, two-stage cluster sample (for measles and exemption data), to a census sample (since 2020-2021).
-* Wyoming: The state switched reporting for the number of doses from two to one dose of the MMR vaccine in 2023 and also shifted how it defines kindergarten-age children from different ages to kindergartners specifically. County-level data was not included in the reporting, as it was not possible to compare this data either over time or with other states.
+* **Alaska**: Data was provided for large economic regions, so reporters translated these to county-equivalent census areas and boroughs.
+* **Connecticut**: Available data represented counties prior to 2024 and planning regions after, so reporters mapped school addresses from 2018 to the  planning regions.
+* **D.C.**: In the county map data, the pre-pandemic year is 2015, not 2018 or 2019, as no comparable data was otherwise available. 
+* **Hawaii**: State health officials noted that they could not clearly distinguish between students that were not vaccinated from those who were missing immunization records in part because of state immunization registry issues and staffing shortages.
+* **Kansas**: Only school-district-level data was provided, so that data is available here as a separate file with that school district geography as “kansas.geojson”.
+* **Kentucky**: Initial county and school-level data provided for Jefferson County’s vaccination rate appeared to be extremely low (under 60 percent). When reporters asked about these rates, local officials sent dramatically updated school-level data for Jefferson County alone from 2018-2019 through the 2024-2025 school year – the latest rate was about 94 percent on average. Local public health experts cited a top healthcare provider not reporting data as a reason for the discrepancy and later told reporters that The Post’s inquiry helped them find a major multistate data infrastructure flaw that also impacted the data’s accuracy. Reporters replaced school and county-level data for Jefferson County in this data, but it is unclear the extent to which these problems officials cited impact other local data in Kentucky.
+* **Montana**: No recent statewide (latest is from 2020-2021), county (latest is from 2019-2020), or school-level (latest is from 2018-2019) data was available. In a statement to The Post, a health department official wrote that “the Department no longer collects data from schools after the passing of HB 334 in 2021.”
+* **Nebraska**: Data was provided for health department districts, so reporters translated data for these to counties.
+* **New York**: School-level data includes all schools, not just those with kindergartens. It does not include any individual public schools in the five boroughs of New York City – those are reported at the borough level. 
+* **Texas**: Data represents individual private schools and public school districts. In the school-level dataframe, public school districts are geocoded as centroids for school districts. That school district data is additionally provided as “texas.geojson” for the school district geography.
+* **West Virginia**: West Virginia did not provide any data following multiple requests. Only CDC data was used to report statewide rates.
+* **Wisconsin**: State health department officials noted that the methodology for calculating statewide rates changed before and after the pandemic from a stratified, two-stage cluster sample (for measles and exemption data), to a census sample (since 2020-2021).
+* **Wyoming**: The state switched reporting for the number of doses from two to one dose of the MMR vaccine in 2023 and also shifted how it defines kindergarten-age children from different ages to kindergartners specifically. County-level data was not included in the reporting, as it was not possible to compare this data either over time or with other states.
+
 
 ### Credits
 Reporting by [Lauren Weber](https://www.washingtonpost.com/people/lauren-weber/) and [Caitlin Gilbert](https://www.washingtonpost.com/people/caitlin-gilbert/). Data analysis by [Caitlin Gilbert](https://www.washingtonpost.com/people/caitlin-gilbert/). Graphics by [Dylan Moriarty](https://www.washingtonpost.com/people/dylan-moriarty/). Development by [Junne Joaquin Alcantara](https://www.washingtonpost.com/people/junne-alcantara/). Graphics editing by Tim Meko and Javier Zarracina. Design editing by Betty Chavarria. Photos by Joshua Lott. Photo editing by Maya Valentine. Editing by Christopher Rowland and Meghan Hoyer. Additional editing by Juliet Eilperin and Lynh Bui. Copy edited by Gaby Morera Di Núbila.
