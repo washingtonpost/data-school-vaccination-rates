@@ -1,0 +1,52 @@
+state,county_data_avail,county_source,school_data_avail,school_source,notes
+Alabama,y,state request,n,NA,
+Alaska,y,state request,n,NA,region-only
+Arizona,y,https://apps.azdhs.gov/IDRREportStats,y,https://apps.azdhs.gov/IDRREportStats,
+Arkansas,y,state request,y,state request,
+California,y,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/School/tk-12-reports.aspx,y,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/School/tk-12-reports.aspx,
+Colorado,y,https://data-cdphe.opendata.arcgis.com/datasets/57191c53750c49bf828783434a6f92cb_3/explore,y,https://data-cdphe.opendata.arcgis.com/datasets/57191c53750c49bf828783434a6f92cb_3/explore,
+Connecticut,y,https://data.ct.gov/Health-and-Human-Services/County-or-County-Equivalent-Immunizations-and-Exem/8kid-pp5k/about_data,y,https://data.ct.gov/Health-and-Human-Services/2024-2025-Kindergarten-Immunization-Rates-by-Schoo/iux5-vrzq,
+Delaware,n,NA,n,NA,
+District of Columbia,y,state request,y,state request,
+Florida,y,https://www.flhealthcharts.gov/ChartsDashboards/rdPage.aspx?rdReport=NonVitalIndNoGrp.Dataviewer&cid=75,n,NA,
+Georgia,y,state request,n,NA,
+Hawaii,y,state request,y,state request,K-12 only
+Idaho,y,state request,y,state request,
+Illinois,y,state request,y,state request,
+Indiana,y,state request,y,https://hub.mph.in.gov/dataset/immunization-division-s-school-supplemental-dashboard,
+Iowa,y,https://publications.iowa.gov/51944/1/Kindergarten%20School%20Summary%202024-25.pdf,y,https://publications.iowa.gov/51943/1/K-12%20Grade%20Summary%20by%20School%202024-25.pdf,K-12 only
+Kansas,y,https://www.kdhe.ks.gov/2016/Kindergarten-Immunization-Data,y,https://www.kdhe.ks.gov/2016/Kindergarten-Immunization-Data,school district only
+Kentucky,y,https://healthtracking.ky.gov/Topics/immunizations/Pages/childhood-immunizations.aspx,y,state request,
+Louisiana,y,https://analytics.la.gov/t/LDH/views/SchoolImmunizationDashboard/DownloadData?%3Aembed=y&%3AisGuestRedirectFromVizportal=y,y,https://analytics.la.gov/t/LDH/views/SchoolImmunizationDashboard/DownloadData?%3Aembed=y&%3AisGuestRedirectFromVizportal=y,
+Maine,y,https://www.maine.gov/dhhs/mecdc/data-reports/immunization,y,https://www.maine.gov/dhhs/mecdc/data-reports/immunization,
+Maryland,y,https://health.maryland.gov/phpa/OIDEOR/IMMUN/Pages/Kindergarten_Immunization_Rates_by_School.aspx,y,https://health.maryland.gov/phpa/OIDEOR/IMMUN/Pages/Kindergarten_Immunization_Rates_by_School.aspx,
+Massachusetts,y,https://www.mass.gov/info-details/school-immunizations#school-immunization-data,y,https://www.mass.gov/info-details/school-immunizations#school-immunization-data,
+Michigan,y,state request,y,state request,
+Minnesota,y,https://www.health.state.mn.us/people/immunize/stats/school/index.html,y,https://www.health.state.mn.us/people/immunize/stats/school/index.html,
+Mississippi,n,NA,n,NA,
+Missouri,y,state request,n,NA,
+Montana,n,NA,n,NA,
+Nebraska,y,state request,n,NA,health department district only
+Nevada,y,https://app.powerbigov.us/view?r=eyJrIjoiZDkyZjFiMGUtZjNhZS00YTQ2LWFiMmItMDFkYjZhNTA5OGM1IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,y,state request,
+New Hampshire,n,NA,n,NA,
+New Jersey,y,https://www.nj.gov/health/cd/statistics/imm-status-reports/,n,NA,
+New Mexico,y,state request,y,state request,
+New York,y,https://health.data.ny.gov/Health/School-Immunization-Survey-Beginning-2019-20-Schoo/btkd-y8bp/about_data,y,https://health.data.ny.gov/Health/School-Immunization-Survey-Beginning-2019-20-Schoo/btkd-y8bp/about_data,"K-12 only, no individual NYC public schools"
+North Carolina,y,state request,y,state request,
+North Dakota,y,state request,y,state request,
+Ohio,y,state request,y,state request,
+Oklahoma,y,https://oklahoma.gov/health/services/personal-health/immunizations/imm-shot-records.html#accordion-20374dfd6f-item-029ee451bc,y,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Foklahoma.gov%2Fcontent%2Fdam%2Fok%2Fen%2Fhealth%2Fhealth2%2Faem-documents%2Fprevention-and-preparedness%2Fimmunizations%2Fkindergarten-survey%2F2024%2FKSurvey_OSDH_SchoolLevelResults_17-24_protected.xlsx&wdOrigin=BROWSELINK,
+Oregon,y,https://visual-data.dhsoha.state.or.us/t/OHA/views/SchoolLawTableau-summarytable_16649067556390/SummaryTable?%3Adisplay_count=n&%3Aembed=y&%3AisGuestRedirectFromVizportal=y&%3Aorigin=viz_share_link&%3AshowAppBanner=false&%3AshowVizHome=n,y,state request,
+Pennsylvania,y,state request,y,state request,
+Rhode Island,y,https://ricair-data-rihealth.hub.arcgis.com/pages/students,y,state request,
+South Carolina,y,state request,n,NA,K-12 only
+South Dakota,y,https://doh.sd.gov/health-data-reports/data-dashboards/school-immunization-dashboard/,y,https://doh.sd.gov/health-data-reports/data-dashboards/school-immunization-dashboard/,
+Tennessee,y,https://data.tn.gov/t/Public/views/School_Dash_Q2_for_publication/46Dash?%3Aembed=yes&%3Atabs=no&%3Atoolbar=no,y,https://www.tn.gov/content/dam/tn/health/documents/cedep-weeklyreports/kindergarten-immunization-compliance/2024-2025-Tennessee-Kindergarten-Immunization-Compliance-Assessment-Report.pdf,
+Texas,y,https://www.dshs.texas.gov/immunizations/data/school/coverage,y,https://www.dshs.texas.gov/immunizations/data/school/coverage,school district only for public schools
+Utah,y,state request,y,state request,
+Vermont,y,https://www.healthvermont.gov/stats/surveillance-reporting-topic/school-vaccination-data,y,state request,K-12 only for schools
+Virginia,y,https://www.vdh.virginia.gov/immunization/datamanagement/sisreports/,y,state request,
+Washington,y,state request,y,state request,
+West Virginia,n,NA,n,NA,
+Wisconsin,y,https://www.dhs.wisconsin.gov/immunization/mmr-map-data-2019-2024.xlsx,y,state request,
+Wyoming,n,NA,n,NA,
