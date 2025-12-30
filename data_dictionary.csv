@@ -1,0 +1,49 @@
+filename,variable,description,class
+vaxrates_schools.csv,year,school year,character
+vaxrates_schools.csv,school_name,name of school,character
+vaxrates_schools.csv,school_type,"type of school (private, public, other, or public school district)",character
+vaxrates_schools.csv,address,school address (or closest available address),character
+vaxrates_schools.csv,students_enrolled,number of students (either just kindergartners or all students) in school,numeric
+vaxrates_schools.csv,mmr_rate,vaccination rate for 2 doses of the MMR vaccine,numeric
+vaxrates_schools.csv,overall_rate,"overall vaccination rate, ie students are compliant/up-to-date on required immunizations",numeric
+vaxrates_schools.csv,medical_exemption_rate,rate for any medical exemptions across vaccines,numeric
+vaxrates_schools.csv,religious_exemption_rate,rate for any religious exemptions across vaccines,numeric
+vaxrates_schools.csv,personal_exemption_rate,"rate for any personal (includes ""philosophical"" or ""for reasons of conscience"") exemptions across vaccines",numeric
+vaxrates_schools.csv,nonmedical_exemption_rate,rate for any non-medical (could include religious and/or personal) exemptions across vaccines,numeric
+vaxrates_schools.csv,overall_exemption_rate,rate for any exemptions across vaccines,numeric
+vaxrates_schools.csv,LAT,latitude,numeric
+vaxrates_schools.csv,LON,longitude,numeric
+vaxrates_schools.csv,county,county of school,character
+vaxrates_schools.csv,state,state of school,character
+vaxrates_schools.csv,grade,grade of students,character
+vaxrates_counties.csv,state_abb,state abbreviation,character
+vaxrates_counties.csv,state,full state name,character
+vaxrates_counties.csv,county,short county name,character
+vaxrates_counties.csv,2018-2019,MMR or overall vaccination rate in the 2018-2019 school year,numeric
+vaxrates_counties.csv,2019-2020,MMR or overall vaccination rate in the 2019-2020 school year,numeric
+vaxrates_counties.csv,2023-2024,MMR or overall vaccination rate in the 2023-2024 school year,numeric
+vaxrates_counties.csv,2024-2025,MMR or overall vaccination rate in the 2024-2025 school year,numeric
+vaxrates_counties.csv,perc_change,percent change in vaccination rate over the pandemic,numeric
+vaxrates_counties.csv,pop_2023,2023 estimated total population (US Census),numeric
+vaxrates_counties.csv,pop_tier,bin for population size,character
+vaxrates_counties.csv,prepand_herd,"whether or not the county rate was at herd immunity (95%) before the pandemic; y=yes, n=no",character
+vaxrates_counties.csv,postpand_herd,"whether or not the county rate was at herd immunity (95%) after the pandemic; y=yes, n=no",character
+vaxrates_counties.csv,fiptxt,FIPS code for county,character
+vaxrates_counties.csv,name,full county name,character
+vaxrates_counties.csv,goppct24,percent of GOP votes in 2024 presidential election,numeric
+vaxrates_counties.csv,dempct24,percent of DEM votes in 2024 presidential election,numeric
+vaxrates_counties.csv,urbrur2013,ID for 2013 county type,numeric
+vaxrates_counties.csv,urb_rur2013_grp,"name of 2013 county type (eg urban, suburban, rural)",character
+kansas.geojson,schooldistrict_id,district ID from state dashboard,character
+kansas.geojson,school_district_name,school district name from state dashboard,character
+kansas.geojson,notes,notes on any data suppression,character
+kansas.geojson,grade,grade of students,character
+kansas.geojson,sd_ID,ID for school district,character
+kansas.geojson,Name,full name of school district,character
+kansas.geojson,Higrade,highest grade of school district,character
+kansas.geojson,Lograde,lowest grade of school district,character
+kansas.geojson,2019-2020,MMR vaccination rate in the 2019-2020 school year,numeric
+kansas.geojson,2024-2025,MMR vaccination rate in the 2024-2025 school year,numeric
+kansas.geojson,diff,difference in vaccination rate over the pandemic,numeric
+kansas.geojson,perc_change,percent change in vaccination rate over the pandemic,numeric
+kansas.geojson,geometry,multipolygon geometry for each school district region,MULTIPOLYGON
