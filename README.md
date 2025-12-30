@@ -5,7 +5,7 @@ As part of our reporting into growing vaccine hesitancy in the U.S., the Washing
 **[U.S. vaccination rates are plunging. Look up where your school stands.](https://www.washingtonpost.com/tklink)**
 
 ##
-## HOW TO USE THIS DATA
+
 ### Data Included
 There are four files included in this repo. Details on how the data was obtained, cleaned and filtered can be found in the methodology below. There are no plans to update this data.
 * County-level vaccination rates: [vaxrates_counties.csv](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/vaxrates_counties.csv)
