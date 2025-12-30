@@ -1,6 +1,6 @@
 # School and County-Level U.S. Vaccination Rates
 
-As part of our reporting into growing vaccine hesitancy in the U.S., the Washington Post is sharing cleaned, standardized data reflecting kindergarten vaccination rates. This data was used in reporting published in the Post on December 30, 2025.
+As part of our reporting into growing vaccine hesitancy in the U.S., the Washington Post is sharing cleaned, standardized data reflecting kindergarten vaccination rates. This data was used in reporting published in the Post on December 30, 2025. If you use this data, please credit The Washington Post.
 
 **[U.S. vaccination rates are plunging. Look up where your school stands.](https://www.washingtonpost.com/tklink)**
 
