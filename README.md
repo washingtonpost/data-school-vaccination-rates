@@ -7,11 +7,12 @@ As part of our reporting into growing vaccine hesitancy in the U.S., the Washing
 ##
 
 ### Data Included
-There are four files included in this repo. Details on how the data was obtained, cleaned and filtered can be found in the methodology below. There are no plans to update this data.
+There are five files included in this repo. Details on how the data was obtained, cleaned and filtered can be found in the methodology below. There are no plans to update this data.
 * County-level vaccination rates: [vaxrates_counties.csv](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/vaxrates_counties.csv)
 * School-level vaccination rates: [vaxrates_schools.csv](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/vaxrates_schools.csv)
   * Kansas: [kansas.geojson](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/kansas.geojson)
 * Data Dictionary: [data_dictionary.csv](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/data_dictionary.csv)
+* Data Sourcing: [data_sourcing.csv](https://github.com/washingtonpost/data-school-vaccination-rates/blob/main/data_sourcing.csv)
 
 ### Vaccination Rate Data
 To investigate vaccination rates at U.S. schools, reporters sought out school-level MMR (measles, mumps, and rubella) vaccination rates and exemption data for kindergartners from all 50 states and D.C. To analyze how the pandemic affected rates, we examined the academic years 2018-2019, 2019-2020, 2023-2024 and 2024-2025. Data was gathered from publicly available government websites or through public records requests filed with state and local agencies.
@@ -22,7 +23,7 @@ There are several reasons certain schools are not found in the data. Many states
 
 The exemption rates reported for schools are not just for the MMR vaccine and in some cases reflect exemptions students received for other vaccines.
 
-Forty-four states and D.C. provided county-level vaccination data. In counties where school-level data was not made available, individual school vaccine rates in our database reflect a county average that is weighted by enrollment, with non-reporting schools dropped from the calculation. If student enrollment data was not provided, reporters collected it from National Center for Education Statistics databases. In some cases, the state provided data based on geography other than counties; reporters translated these to county-equivalent regions for mapping and analysis. Although student enrollment typically refers to the number of kindergarten students per school, some states reported total school enrollment instead.
+Forty-four states and D.C. provided county-level vaccination data. In states where county-level data was not made available, individual county vaccine rates in our database reflect a county average that is weighted by enrollment, with non-reporting schools dropped from the calculation. If student enrollment data was not provided, reporters collected it from National Center for Education Statistics databases. In some cases, the state provided data based on geography other than counties; reporters translated these to county-equivalent regions for mapping and analysis. Although student enrollment typically refers to the number of kindergarten students per school, some states reported total school enrollment instead.
 
 For county and school-level data, “post-pandemic” typically refers to the 2024-2025 school year, but some states provided only 2023-2024 data. “Pre-pandemic” years include school years starting in 2018 or 2019. Some states’ rates did not differentiate between kindergartners and students in other grades; when grades above kindergarten are included, that is stated in the state-specific notes in the interactive map. Many schools did not fall cleanly into a “public” or “private” school type category, and one additional category, “other” (which can include charter, tribal, special education, independent and collaborative schools among others) is included in the underlying data. 
 
